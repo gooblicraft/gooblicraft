@@ -1,0 +1,65 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.pile_planks1",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-11, 0, -3],
+							"size": [15, 1, 4],
+							"pivot": [3, 0, 0],
+							"rotation": [90, 42.5, 87.5],
+							"uv": {
+								"north": {"uv": [15, 0], "uv_size": [-15, 1]},
+								"east": {"uv": [0, 0], "uv_size": [4, 1]},
+								"south": {"uv": [15, 0], "uv_size": [-15, 1]},
+								"west": {"uv": [0, 0], "uv_size": [4, 1]},
+								"up": {"uv": [15, 4], "uv_size": [-15, -4]},
+								"down": {"uv": [15, 4], "uv_size": [-15, -4]}
+							}
+						},
+						{
+							"origin": [-13, 0, -13],
+							"size": [15, 1, 4],
+							"pivot": [1, 0, -10],
+							"rotation": [0, 65, 0],
+							"uv": {
+								"north": {"uv": [15, 0], "uv_size": [-15, 1]},
+								"east": {"uv": [0, 0], "uv_size": [4, 1]},
+								"south": {"uv": [15, 0], "uv_size": [-15, 1]},
+								"west": {"uv": [0, 0], "uv_size": [4, 1]},
+								"up": {"uv": [15, 4], "uv_size": [-15, -4]},
+								"down": {"uv": [15, 4], "uv_size": [-15, -4]}
+							}
+						},
+						{
+							"origin": [-7, 0, 0],
+							"size": [15, 1, 4],
+							"pivot": [7, 0, 3],
+							"rotation": [0, 15, 0],
+							"uv": {
+								"north": {"uv": [15, 0], "uv_size": [-15, 1]},
+								"east": {"uv": [0, 0], "uv_size": [4, 1]},
+								"south": {"uv": [15, 0], "uv_size": [-15, 1]},
+								"west": {"uv": [0, 0], "uv_size": [4, 1]},
+								"up": {"uv": [15, 4], "uv_size": [-15, -4]},
+								"down": {"uv": [15, 4], "uv_size": [-15, -4]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

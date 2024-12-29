@@ -1,0 +1,52 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "gooblideco:paper_stamps",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/paper_stamp",
+				"tex1": "textures/entity/paper_stampC",
+				"tex2": "textures/entity/paper_stampC"
+			},
+			"geometry": {
+				"default": "geometry.paper_stamp1",
+				"geo1": "geometry.paper_stamp2",
+                "geo2": "geometry.paper_stamp3"
+			},
+			"render_controllers": [
+				"controller.render.variant2"
+			],
+			"spawn_egg": {
+				"texture": "null",
+				"texture_index": 0
+			},
+			"animations": {
+				"default": "animation.rotate.default",
+				"30deg": "animation.rotate.30deg",
+				"60deg": "animation.rotate.60deg",
+				"90deg": "animation.rotate.90deg",
+				"120deg": "animation.rotate.120deg",
+				"150deg": "animation.rotate.150deg",
+				"180deg": "animation.rotate.180deg",
+				"210deg": "animation.rotate.210deg",
+				"240deg": "animation.rotate.240deg",
+				"270deg": "animation.rotate.270deg",
+				"300deg": "animation.rotate.300deg",
+				"330deg": "animation.rotate.330deg",
+				"360deg": "animation.rotate.360deg"
+			},
+			"animation_controllers": [ {
+          		"pose": "controller.animation.rotate"
+       		 	}
+    	],
+			"scripts": {
+				"pre_animation": [
+          			"variable.armor_stand.pose_index = variable.armor_stand.pose_index;"
+       			]
+			}
+		}
+	}
+}

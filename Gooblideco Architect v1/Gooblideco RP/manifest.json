@@ -1,0 +1,32 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": ["Gooblicraft"]
+	},
+	"header": {
+		"name": "Gooblideco: Architect",
+		"description": "Made by Gooblicraft",
+		"min_engine_version": [
+			1,
+			20,
+			80
+		],
+		"uuid": "3483643e-d7e4-4376-948a-e214e6f31c39",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "0ce3cad0-8ffe-4ae7-886a-a69b385eddcf",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

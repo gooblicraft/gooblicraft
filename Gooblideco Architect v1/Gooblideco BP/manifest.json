@@ -1,0 +1,49 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": ["Gooblicraft"]
+	},
+	"header": {
+		"name": "Gooblideco: Architect",
+		"description": "Made by Gooblicraft",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "65cb64ba-0333-4056-bf43-5657d10d144b",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "0659b281-9f89-4192-a718-f61de2f334b2",
+			"version": [
+				1,
+				0,
+				0
+			]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "0f8228cd-8458-4d68-b930-c02f0a224bfd",
+			"entry": "scripts/main.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.14.0"
+		}
+	]
+}

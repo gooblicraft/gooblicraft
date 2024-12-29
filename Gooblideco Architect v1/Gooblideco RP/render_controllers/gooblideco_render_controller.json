@@ -1,0 +1,219 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.variant1": {
+			"geometry": "geometry.default",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.default"
+			]
+		},
+		"controller.render.variant2": {
+      	"arrays": {
+        	"textures": {
+            	"Array.variants": [
+            		"Texture.default",
+           			"Texture.tex1",
+            		"Texture.tex2"
+          		]
+        	},
+       		"geometries": {
+          		"Array.variants": [
+            		"Geometry.default",
+            		"Geometry.geo1",
+            		"Geometry.geo2"
+         		]
+        	}
+     	},
+      	"materials": [ { "*": "Material.default" } ],
+      	"textures": [ "Array.variants[query.variant]" ],
+      	"geometry": "Array.variants[query.variant]"
+    	},
+    "controller.render.variant3": {
+      	"arrays": {
+        	"textures": {
+            	"Array.variants": [
+            		"Texture.default",
+           			"Texture.tex1",
+            		"Texture.tex2",
+                    "Texture.tex3"
+          		]
+        	},
+       		"geometries": {
+          		"Array.variants": [
+            		"Geometry.default",
+            		"Geometry.geo1",
+            		"Geometry.geo2",
+                    "Geometry.geo3"
+         		]
+        	}
+     	},
+      	"materials": [ { "*": "Material.default" } ],
+      	"textures": [ "Array.variants[query.variant]" ],
+      	"geometry": "Array.variants[query.variant]"
+    	},
+    "controller.render.variant4": {
+      	"arrays": {
+        	"textures": {
+            	"Array.variants": [
+            		"Texture.default",
+           			"Texture.tex1",
+            		"Texture.tex2",
+                    "Texture.tex3",
+                    "Texture.tex4"
+          		]
+        	},
+       		"geometries": {
+          		"Array.variants": [
+            		"Geometry.default",
+            		"Geometry.geo1",
+            		"Geometry.geo2",
+                    "Geometry.geo3",
+                    "Geometry.geo4"
+         		]
+        	}
+     	},
+      	"materials": [ { "*": "Material.default" } ],
+      	"textures": [ "Array.variants[query.variant]" ],
+      	"geometry": "Array.variants[query.variant]"
+    	},
+    "controller.render.variant5": {
+      	"arrays": {
+        	"textures": {
+            	"Array.variants": [
+            		"Texture.default",
+           			"Texture.tex1",
+            		"Texture.tex2",
+                    "Texture.tex3",
+                    "Texture.tex4",
+                    "Texture.tex5"
+          		]
+        	},
+       		"geometries": {
+          		"Array.variants": [
+            	    "Geometry.default",
+            	    "Geometry.geo1",
+            	    "Geometry.geo2",
+                    "Geometry.geo3",
+                    "Geometry.geo4",
+                    "Geometry.geo5"
+         		]
+        	}
+     	},
+      	"materials": [ { "*": "Material.default" } ],
+      	"textures": [ "Array.variants[query.variant]" ],
+      	"geometry": "Array.variants[query.variant]"
+    	},
+		"controller.render.variant6": {
+      	"arrays": {
+        	"textures": {
+            	"Array.variants": [
+            		"Texture.default",
+           			"Texture.tex1",
+            		"Texture.tex2",
+            		"Texture.tex3",
+            		"Texture.tex4",
+            		"Texture.tex5",
+					"Texture.tex6"
+          		]
+        	},
+       		"geometries": {
+          		"Array.variants": [
+            		"Geometry.default",
+            		"Geometry.geo1",
+            		"Geometry.geo2",
+            		"Geometry.geo3",
+            		"Geometry.geo4",
+            		"Geometry.geo5",
+					"Geometry.geo6"
+          		]
+        	}
+      	},
+      	"materials": [ { "*": "Material.default" } ],
+      	"textures": [ "Array.variants[query.variant]" ],
+      	"geometry": "Array.variants[query.variant]"
+    	},
+		"controller.render.variant7": {
+      	"arrays": {
+        	"textures": {
+            	"Array.variants": [
+            		"Texture.default",
+           			"Texture.tex1",
+            		"Texture.tex2",
+            		"Texture.tex3",
+            		"Texture.tex4",
+            		"Texture.tex5",
+					"Texture.tex6",
+					"Texture.tex7"
+          		]
+        	},
+       		"geometries": {
+          		"Array.variants": [
+            		"Geometry.default",
+            		"Geometry.geo1",
+            		"Geometry.geo2",
+            		"Geometry.geo3",
+            		"Geometry.geo4",
+            		"Geometry.geo5",
+					"Geometry.geo6",
+					"Geometry.geo7"
+         		]
+        	}
+     	},
+      	"materials": [ { "*": "Material.default" } ],
+      	"textures": [ "Array.variants[query.variant]" ],
+      	"geometry": "Array.variants[query.variant]"
+    	},
+		"controller.render.variant15": {
+      	"arrays": {
+        	"textures": {
+            	"Array.variants": [
+            		"Texture.default",
+           			"Texture.tex1",
+            		"Texture.tex2",
+            		"Texture.tex3",
+            		"Texture.tex4",
+            		"Texture.tex5",
+					"Texture.tex6",
+					"Texture.tex7",
+					"Texture.tex8",
+					"Texture.tex9",
+					"Texture.tex10",
+					"Texture.tex11",
+					"Texture.tex12",
+					"Texture.tex13",
+					"Texture.tex14",
+					"Texture.tex15"
+          		]
+        	},
+       		"geometries": {
+          		"Array.variants": [
+            		"Geometry.default",
+            		"Geometry.geo1",
+            		"Geometry.geo2",
+            		"Geometry.geo3",
+            		"Geometry.geo4",
+            		"Geometry.geo5",
+					"Geometry.geo6",
+					"Geometry.geo7",
+					"Geometry.geo8",
+					"Geometry.geo9",
+					"Geometry.geo10",
+					"Geometry.geo11",
+					"Geometry.geo12",
+					"Geometry.geo13",
+					"Geometry.geo14",
+					"Geometry.geo15"
+         		]
+        	}
+     	},
+      	"materials": [ { "*": "Material.default" } ],
+      	"textures": [ "Array.variants[query.variant]" ],
+      	"geometry": "Array.variants[query.variant]"
+    	}
+	}
+}

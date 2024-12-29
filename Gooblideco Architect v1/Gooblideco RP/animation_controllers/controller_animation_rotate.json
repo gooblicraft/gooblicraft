@@ -1,0 +1,230 @@
+{
+    "format_version": "1.8.0",
+    "animation_controllers": {
+      "controller.animation.rotate": {
+        "states": {
+          "default": {
+            "animations": [ { "default": [] } ],
+            "transitions": [
+              { "none": "variable.armor_stand.pose_index == 1" },
+              { "solemn": "variable.armor_stand.pose_index == 2" },
+              { "athena": "variable.armor_stand.pose_index == 3" },
+              { "brandish": "variable.armor_stand.pose_index == 4" },
+              { "honor": "variable.armor_stand.pose_index == 5" },
+              { "entertain": "variable.armor_stand.pose_index == 6" },
+              { "salute": "variable.armor_stand.pose_index == 7" },
+              { "riposte": "variable.armor_stand.pose_index == 8" },
+              { "zombie": "variable.armor_stand.pose_index == 9" },
+              { "cancan_a": "variable.armor_stand.pose_index == 10" },
+              { "cancan_b": "variable.armor_stand.pose_index == 11" },
+              { "hero": "variable.armor_stand.pose_index == 12" }
+            ]
+          },
+          "none": {
+            "animations": [ { "30deg": [] } ],
+            "transitions": [
+              { "default": "variable.armor_stand.pose_index == 0" },
+              { "solemn": "variable.armor_stand.pose_index == 2" },
+              { "athena": "variable.armor_stand.pose_index == 3" },
+              { "brandish": "variable.armor_stand.pose_index == 4" },
+              { "honor": "variable.armor_stand.pose_index == 5" },
+              { "entertain": "variable.armor_stand.pose_index == 6" },
+              { "salute": "variable.armor_stand.pose_index == 7" },
+              { "riposte": "variable.armor_stand.pose_index == 8" },
+              { "zombie": "variable.armor_stand.pose_index == 9" },
+              { "cancan_a": "variable.armor_stand.pose_index == 10" },
+              { "cancan_b": "variable.armor_stand.pose_index == 11" },
+              { "hero": "variable.armor_stand.pose_index == 12" }
+            ]
+          },
+          "solemn": {
+            "animations": [ { "60deg": [] } ],
+            "transitions": [
+              { "default": "variable.armor_stand.pose_index == 0" },
+              { "none": "variable.armor_stand.pose_index == 1" },
+              { "athena": "variable.armor_stand.pose_index == 3" },
+              { "brandish": "variable.armor_stand.pose_index == 4" },
+              { "honor": "variable.armor_stand.pose_index == 5" },
+              { "entertain": "variable.armor_stand.pose_index == 6" },
+              { "salute": "variable.armor_stand.pose_index == 7" },
+              { "riposte": "variable.armor_stand.pose_index == 8" },
+              { "zombie": "variable.armor_stand.pose_index == 9" },
+              { "cancan_a": "variable.armor_stand.pose_index == 10" },
+              { "cancan_b": "variable.armor_stand.pose_index == 11" },
+              { "hero": "variable.armor_stand.pose_index == 12" }
+            ]
+          },
+          "athena": {
+            "animations": [ { "90deg": [] } ],
+            "transitions": [
+              { "default": "variable.armor_stand.pose_index == 0" },
+              { "none": "variable.armor_stand.pose_index == 1" },
+              { "solemn": "variable.armor_stand.pose_index == 2" },
+              { "brandish": "variable.armor_stand.pose_index == 4" },
+              { "honor": "variable.armor_stand.pose_index == 5" },
+              { "entertain": "variable.armor_stand.pose_index == 6" },
+              { "salute": "variable.armor_stand.pose_index == 7" },
+              { "riposte": "variable.armor_stand.pose_index == 8" },
+              { "zombie": "variable.armor_stand.pose_index == 9" },
+              { "cancan_a": "variable.armor_stand.pose_index == 10" },
+              { "cancan_b": "variable.armor_stand.pose_index == 11" },
+              { "hero": "variable.armor_stand.pose_index == 12" }
+            ]
+          },
+          "brandish": {
+            "animations": [ { "120deg": [] } ],
+            "transitions": [
+              { "default": "variable.armor_stand.pose_index == 0" },
+              { "none": "variable.armor_stand.pose_index == 1" },
+              { "solemn": "variable.armor_stand.pose_index == 2" },
+              { "athena": "variable.armor_stand.pose_index == 3" },
+              { "honor": "variable.armor_stand.pose_index == 5" },
+              { "entertain": "variable.armor_stand.pose_index == 6" },
+              { "salute": "variable.armor_stand.pose_index == 7" },
+              { "riposte": "variable.armor_stand.pose_index == 8" },
+              { "zombie": "variable.armor_stand.pose_index == 9" },
+              { "cancan_a": "variable.armor_stand.pose_index == 10" },
+              { "cancan_b": "variable.armor_stand.pose_index == 11" },
+              { "hero": "variable.armor_stand.pose_index == 12" }
+            ]
+          },
+          "honor": {
+            "animations": [ { "150deg": [] } ],
+            "transitions": [
+              { "default": "variable.armor_stand.pose_index == 0" },
+              { "none": "variable.armor_stand.pose_index == 1" },
+              { "solemn": "variable.armor_stand.pose_index == 2" },
+              { "athena": "variable.armor_stand.pose_index == 3" },
+              { "brandish": "variable.armor_stand.pose_index == 4" },
+              { "entertain": "variable.armor_stand.pose_index == 6" },
+              { "salute": "variable.armor_stand.pose_index == 7" },
+              { "riposte": "variable.armor_stand.pose_index == 8" },
+              { "zombie": "variable.armor_stand.pose_index == 9" },
+              { "cancan_a": "variable.armor_stand.pose_index == 10" },
+              { "cancan_b": "variable.armor_stand.pose_index == 11" },
+              { "hero": "variable.armor_stand.pose_index == 12" }
+            ]
+          },
+          "entertain": {
+            "animations": [ { "180deg": [] } ],
+            "transitions": [
+              { "default": "variable.armor_stand.pose_index == 0" },
+              { "none": "variable.armor_stand.pose_index == 1" },
+              { "solemn": "variable.armor_stand.pose_index == 2" },
+              { "athena": "variable.armor_stand.pose_index == 3" },
+              { "brandish": "variable.armor_stand.pose_index == 4" },
+              { "honor": "variable.armor_stand.pose_index == 5" },
+              { "salute": "variable.armor_stand.pose_index == 7" },
+              { "riposte": "variable.armor_stand.pose_index == 8" },
+              { "zombie": "variable.armor_stand.pose_index == 9" },
+              { "cancan_a": "variable.armor_stand.pose_index == 10" },
+              { "cancan_b": "variable.armor_stand.pose_index == 11" },
+              { "hero": "variable.armor_stand.pose_index == 12" }
+            ]
+          },
+          "salute": {
+            "animations": [ { "210deg": [] } ],
+            "transitions": [
+              { "default": "variable.armor_stand.pose_index == 0" },
+              { "none": "variable.armor_stand.pose_index == 1" },
+              { "solemn": "variable.armor_stand.pose_index == 2" },
+              { "athena": "variable.armor_stand.pose_index == 3" },
+              { "brandish": "variable.armor_stand.pose_index == 4" },
+              { "honor": "variable.armor_stand.pose_index == 5" },
+              { "entertain": "variable.armor_stand.pose_index == 6" },
+              { "riposte": "variable.armor_stand.pose_index == 8" },
+              { "zombie": "variable.armor_stand.pose_index == 9" },
+              { "cancan_a": "variable.armor_stand.pose_index == 10" },
+              { "cancan_b": "variable.armor_stand.pose_index == 11" },
+              { "hero": "variable.armor_stand.pose_index == 12" }
+            ]
+          },
+          "riposte": {
+            "animations": [ { "240deg": [] } ],
+            "transitions": [
+              { "default": "variable.armor_stand.pose_index == 0" },
+              { "none": "variable.armor_stand.pose_index == 1" },
+              { "solemn": "variable.armor_stand.pose_index == 2" },
+              { "athena": "variable.armor_stand.pose_index == 3" },
+              { "brandish": "variable.armor_stand.pose_index == 4" },
+              { "honor": "variable.armor_stand.pose_index == 5" },
+              { "entertain": "variable.armor_stand.pose_index == 6" },
+              { "salute": "variable.armor_stand.pose_index == 7" },
+              { "zombie": "variable.armor_stand.pose_index == 9" },
+              { "cancan_a": "variable.armor_stand.pose_index == 10" },
+              { "cancan_b": "variable.armor_stand.pose_index == 11" },
+              { "hero": "variable.armor_stand.pose_index == 12" }
+            ]
+          },
+          "zombie": {
+            "animations": [ { "270deg": [] } ],
+            "transitions": [
+              { "default": "variable.armor_stand.pose_index == 0" },
+              { "none": "variable.armor_stand.pose_index == 1" },
+              { "solemn": "variable.armor_stand.pose_index == 2" },
+              { "athena": "variable.armor_stand.pose_index == 3" },
+              { "brandish": "variable.armor_stand.pose_index == 4" },
+              { "honor": "variable.armor_stand.pose_index == 5" },
+              { "entertain": "variable.armor_stand.pose_index == 6" },
+              { "salute": "variable.armor_stand.pose_index == 7" },
+              { "riposte": "variable.armor_stand.pose_index == 8" },
+              { "cancan_a": "variable.armor_stand.pose_index == 10" },
+              { "cancan_b": "variable.armor_stand.pose_index == 11" },
+              { "hero": "variable.armor_stand.pose_index == 12" }
+            ]
+          },
+          "cancan_a": {
+            "animations": [ { "300deg": [] } ],
+            "transitions": [
+              { "default": "variable.armor_stand.pose_index == 0" },
+              { "none": "variable.armor_stand.pose_index == 1" },
+              { "solemn": "variable.armor_stand.pose_index == 2" },
+              { "athena": "variable.armor_stand.pose_index == 3" },
+              { "brandish": "variable.armor_stand.pose_index == 4" },
+              { "honor": "variable.armor_stand.pose_index == 5" },
+              { "entertain": "variable.armor_stand.pose_index == 6" },
+              { "salute": "variable.armor_stand.pose_index == 7" },
+              { "riposte": "variable.armor_stand.pose_index == 8" },
+              { "zombie": "variable.armor_stand.pose_index == 9" },
+              { "cancan_b": "variable.armor_stand.pose_index == 11" },
+              { "hero": "variable.armor_stand.pose_index == 12" }
+            ]
+          },
+          "cancan_b": {
+            "animations": [ { "330deg": [] } ],
+            "transitions": [
+              { "default": "variable.armor_stand.pose_index == 0" },
+              { "none": "variable.armor_stand.pose_index == 1" },
+              { "solemn": "variable.armor_stand.pose_index == 2" },
+              { "athena": "variable.armor_stand.pose_index == 3" },
+              { "brandish": "variable.armor_stand.pose_index == 4" },
+              { "honor": "variable.armor_stand.pose_index == 5" },
+              { "entertain": "variable.armor_stand.pose_index == 6" },
+              { "salute": "variable.armor_stand.pose_index == 7" },
+              { "riposte": "variable.armor_stand.pose_index == 8" },
+              { "zombie": "variable.armor_stand.pose_index == 9" },
+              { "cancan_a": "variable.armor_stand.pose_index == 10" },
+              { "hero": "variable.armor_stand.pose_index == 12" }
+            ]
+          },
+          "hero": {
+            "animations": [ { "360deg": [] } ],
+            "transitions": [
+              { "default": "variable.armor_stand.pose_index == 0" },
+              { "none": "variable.armor_stand.pose_index == 1" },
+              { "solemn": "variable.armor_stand.pose_index == 2" },
+              { "athena": "variable.armor_stand.pose_index == 3" },
+              { "brandish": "variable.armor_stand.pose_index == 4" },
+              { "honor": "variable.armor_stand.pose_index == 5" },
+              { "entertain": "variable.armor_stand.pose_index == 6" },
+              { "salute": "variable.armor_stand.pose_index == 7" },
+              { "riposte": "variable.armor_stand.pose_index == 8" },
+              { "zombie": "variable.armor_stand.pose_index == 9" },
+              { "cancan_a": "variable.armor_stand.pose_index == 10" },
+              { "cancan_b": "variable.armor_stand.pose_index == 11" }
+            ]
+          }
+        }
+      }
+    }
+  }

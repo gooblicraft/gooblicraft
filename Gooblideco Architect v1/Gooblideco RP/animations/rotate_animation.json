@@ -1,0 +1,83 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+      "animation.rotate.default": {
+        "loop": true,
+        "bones": {
+          "bone": { "rotation": [ 0, 0, 0 ] }
+        }
+      },
+      "animation.rotate.30deg": {
+        "loop": true,
+        "bones": {
+          "bone": { "rotation": [ 0, 30, 0 ] }
+        }
+      },
+      "animation.rotate.60deg": {
+        "loop": true,
+        "bones": {
+          "bone": { "rotation": [ 0, 60, 0 ] }
+        }
+      },
+      "animation.rotate.90deg": {
+        "loop": true,
+        "bones": {
+          "bone": { "rotation": [ 0, 90, 0 ] }
+        }
+      },
+      "animation.rotate.120deg": {
+        "loop": true,
+        "bones": {
+          "bone": { "rotation": [ 0, 120, 0 ] }
+        }
+      },
+      "animation.rotate.150deg": {
+        "loop": true,
+        "bones": {
+          "bone": { "rotation": [ 0, 150, 0 ] }
+        }
+      },
+      "animation.rotate.180deg": {
+        "loop": true,
+        "bones": {
+          "bone": { "rotation": [ 0, 180, 0 ] }
+        }
+      },
+      "animation.rotate.210deg": {
+        "loop": true,
+        "bones": {
+          "bone": { "rotation": [ 0, 210, 0 ] }
+        }
+      },
+      "animation.rotate.240deg": {
+        "loop": true,
+        "bones": {
+          "bone": { "rotation": [ 0, 240, 0 ] }
+        }
+      },
+      "animation.rotate.270deg": {
+        "loop": true,
+        "bones": {
+          "bone": { "rotation": [ 0, 270, 0 ] }
+        }
+      },
+      "animation.rotate.300deg": {
+        "loop": true,
+        "bones": {
+          "bone": { "rotation": [ 0, 300, 0 ] }
+        }
+      },
+      "animation.rotate.330deg": {
+        "loop": true,
+        "bones": {
+          "bone": { "rotation": [ 0, 330, 0 ] }
+        }
+      },
+      "animation.rotate.360deg": {
+        "loop": true,
+        "bones": {
+          "bone": { "rotation": [ 0, 360, 0 ] }
+        }
+      }
+    }
+  }
