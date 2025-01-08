@@ -1,0 +1,24 @@
+{
+    "resource_pack_name": "Sample",
+    "texture_name": "atlas.terrain",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "sofa_oak_black": { "textures": [ { "path": "textures/blocks/sofa_oak/sofa_oak_black" } ] },
+        "sofa_oak_blue": { "textures": [ { "path": "textures/blocks/sofa_oak/sofa_oak_blue" } ] },
+        "sofa_oak_brown": { "textures": [ { "path": "textures/blocks/sofa_oak/sofa_oak_brown" } ] },
+        "sofa_oak_cyan": { "textures": [ { "path": "textures/blocks/sofa_oak/sofa_oak_cyan" } ] },
+        "sofa_oak_gray": { "textures": [ { "path": "textures/blocks/sofa_oak/sofa_oak_gray" } ] },
+        "sofa_oak_green": { "textures": [ { "path": "textures/blocks/sofa_oak/sofa_oak_green" } ] },
+        "sofa_oak_light_blue": { "textures": [ { "path": "textures/blocks/sofa_oak/sofa_oak_light_blue" } ] },
+        "sofa_oak_light_green": { "textures": [ { "path": "textures/blocks/sofa_oak/sofa_oak_light_green" } ] },
+        "sofa_oak_lime": { "textures": [ { "path": "textures/blocks/sofa_oak/sofa_oak_lime" } ] },
+        "sofa_oak_magenta": { "textures": [ { "path": "textures/blocks/sofa_oak/sofa_oak_magenta" } ] },
+        "sofa_oak_orange": { "textures": [ { "path": "textures/blocks/sofa_oak/sofa_oak_orange" } ] },
+        "sofa_oak_pink": { "textures": [ { "path": "textures/blocks/sofa_oak/sofa_oak_pink" } ] },
+        "sofa_oak_purple": { "textures": [ { "path": "textures/blocks/sofa_oak/sofa_oak_purple" } ] },
+        "sofa_oak_red": { "textures": [ { "path": "textures/blocks/sofa_oak/sofa_oak_red" } ] },
+        "sofa_oak_white": { "textures": [ { "path": "textures/blocks/sofa_oak/sofa_oak_white" } ] },
+        "sofa_oak_yellow": { "textures": [ { "path": "textures/blocks/sofa_oak/sofa_oak_yellow" } ] }
+    }
+}
