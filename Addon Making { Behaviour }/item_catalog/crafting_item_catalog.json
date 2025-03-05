@@ -1,0 +1,44 @@
+{
+   "format_version": "1.21.60",
+   "minecraft:crafting_items_catalog": {
+      "categories": [
+         {
+            // Valid values are construction, equipment, nature, and items
+            "category_name": "construction",
+            "groups": [
+               {
+                  // This will add the items to the end of the
+                  // existing planks group
+                  "group_identifier": {
+                     "icon": "minecraft:oak_planks",
+                     "name": "minecraft:itemGroup.name.planks"
+                  },
+                  "items": [
+                     "mynamespace:my_planks1",
+                     "mynamespace:my_planks2"
+                  ]
+               },
+               {
+                  // This will create a new group
+                  "group_identifier": {
+                     "icon": "mynamespace:my_item",
+                     // This is the name of your group which doubles as
+                     // the localization string. The namespace is required
+                     "name": "mynamespace:my_group_name"
+                  },
+                  "items": [
+                     "mynamespace:my_item"
+                  ]
+               },
+               {
+                  // This adds items without being part of a
+                  // group as loose items
+                  "items": [
+                     "mynamespace:my_loose_item"
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}
