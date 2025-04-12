@@ -1,6 +1,7 @@
 # 💫 About Me:
-I am currently studying
+I am currently studying 😎
 
+![giphy](https://github.com/user-attachments/assets/21d7e8fe-7751-49cb-8e30-2c4b59e88ec7)
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.com/invite/EZMSzeXZX4) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@@gooblicraft7217) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:24crafter05@gmail.com) 
