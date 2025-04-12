@@ -22,6 +22,7 @@ I am currently studying
 ![](https://github-contributor-stats.vercel.app/api?username=gooblicraft&limit=5&theme=dark&combine_all_yearly_contributions=true)
 ---
 [![](https://visitcount.itsvg.in/api?id=gooblicraft&icon=0&color=3)](https://visitcount.itsvg.in)
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gooblicraft/gooblicraft/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gooblicraft/gooblicraft/output/github-snake.svg" />
