@@ -1,9 +1,0 @@
-{
-  "resource_pack_name": "Gooblideco: Architect",
-  "texture_name": "atlas.items",
-  "texture_data": {
-    "architect_base": {
-      "textures": "textures/items/base_architect"
-    }
-  }
-}
